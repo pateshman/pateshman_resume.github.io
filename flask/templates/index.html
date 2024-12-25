@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/custom.css">
+    <title id="page-title">Верхняя строчка | Должность</title>
+  </head>
+  <body>
+    <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+      <button id="theme" class="theme-toggle">Переключить тему</button>
+      <button class="language-toggle">English</button>
+    </div>
+
+    <!-- Секция промо с темным фоном - шапка сайта -->
+    <section class="promo dark-bg pt-2 pb-5">
+      <div class="container">
+        <!-- Навигационная панель с логотипом и кнопкой -->
+        <nav class="navbar navbar-expand-lg mb-5 navbar-dark">
+          <div class="container-fluid">
+            <a href="#" class="navbar-brand logo d-flex align-items-center text-decoration-none">
+              <div class="logo-left pe-2">
+                <img src="../static/01_Logo_HSE_full_rus_PANTONE_for_dark_2.png" alt="" class="rounded-circle" width="70">
+              </div>
+              <div class="logo-right" style="margin-left: 6px;">
+                <div id="logo-title" class="logo-title link-purple">Верхняя строчка</div>
+                <div id="logo-subtitle" class="logo-subtitle text-yellow">Должность</div>
+              </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="nav m-auto">
+                <li class="nav-item mx-3">
+                  <a href="#story" id="link-about" class="nav-link link-purple link-border-bottom">Вкратце обо мне</a>
+                </li>
+                <li class="nav-item mx-3">
+                  <a href="#projects" id="link-projects" class="nav-link link-purple link-border-bottom">Мой опыт работы</a>
+                </li>
+                <li class="nav-item mx-3">
+                  <a href="#contact" id="link-contact" class="nav-link link-purple link-border-bottom">Сотрудничество</a>
+                </li>
+              </ul>
+              <ul class="nav ml-auto">
+                <li class="nav-item mx-3">
+                  <a href="https://github.com/pateshman" class="nav-link link-purple link-border-bottom">Github</a>
+                </li>
+                <li class="nav-item mx-3 mr-0">
+                  <a href="#contact" id="link-contact-footer" class="nav-link link-purple link-border-bottom">Написать мне</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Блок приветствия с основной информацией -->
+        <div class="row py-0 py-sm-5">
+          <div class="col-12 col-lg-8 offset-lg-2 mb-0 mb-sm-5 py-5">
+            <h1 id="greeting-text" class="h1 font-weight-bold font greeting-text text-blue">Привет! Меня зовут Ира, давай знакомиться!</h1>
+            <p id="welcome-text" class="promo-text pb-3">Я — студентка Высшей Школы Экономики, ФКН/ФЭН ВШЭ <br> Учусь развиваюсь, творю</p>
+            <a href="#contact" id="btn-contact" class="btn text-center" style="background-color: #DCFF05; color: #102D69">Написать мне</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Секция "Обо мне" -->
+    <section class="story container py-5 text-center" id="story">
+      <h2 id="about-heading" class="h1 font-weight-bold mt-4 mb-3 mb-sm-5 pb-3 navigo-font">Обо мне</h2>
+      <div class="row">
+        <div class="col-12 col-sm-8 offset-sm-2 px-2 pb-5">
+          <p id="about-text" class="font-weight-bold pb-4">Я — обычная студентка, живущая самой обычной жизнью, но кое-что обо мне не знает никто, это моя тайна...</p>
+          <p id="about-text-2" class="font-weight-bold pb-4">Учусь на программе <a href="https://www.hse.ru/ba/eda/?ysclid=m52wnees8u973769851t">"Экономика и анализ данных"</a>. <br> Я состою в студенческой организации ССФЭ, в свободное время мы разукрашиваем жизнь студентов, даря незабываемые эмоции.</p>
+          <p id="about-text-3" class="font-weight-bold pb-4">46 490 минут музыки в 2024 году</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Секция опыта работы с темным фоном -->
+    <section class="projects dark-bg pt-3 pt-sm-5 pb-3" id="projects">
+      <div class="container">
+        <h2 id="projects-heading" class="h1 font-weight-bold text-center mt-4 mt-sm-5 mb-0 mb-sm-4 pb-5 navigo-font">Мой опыт работы</h2>
+        <div class="work-experience text-white">
+          <div class="d-flex align-items-center mb-4">
+            <img src="../static/01_Logo_HSE_full_rus_PANTONE_for_dark_2.png" alt="HSE Logo" class="me-3" style="height: 60px; margin-top: -6px;">
+            <div class="d-flex flex-column justify-content-center">
+              <h3 id="hse" class="h4 mb-1">НИУ «ВШЭ»</h3>
+              <p id="time1" class="text-white-40 mb-0">Сентябрь 2022 – Настоящее время</p>
+            </div>
+          </div>
+          <div class="position mb-4" style="margin-left: 20px;">
+            <h4 id="student" class="h5 text-purple">Студент</h4>
+            <p id="time2" class="text-white" style="opacity: 0.4">Сентябрь 2022 – настоящее время</p>
+            <p id="work-experience-1">Занимаюсь изучением математики, программирования и экономики.</p>
+            <p id="work-experience-2" class="font-weight-bold pb-4">Пока изучаю материал и пробую в свои силы в студенческих проектах <br>Опыта в стажировках ещё пока не было </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Секция личных целей -->
+    <section class="goals container pt-3 pt-sm-5 pb-3">
+      <h2 id="goals-heading" class="h2 font-weight-bold my-4">Мои цели</h2>
+      <div class="row">
+        <div class="col-12 col-sm-8 pb-1">
+          <ul>
+            <li id="goal-1">Создать что-то масштабное, классное и полезное</li>
+            <li id="goal-2">Найти очень классную стажировку</li>
+            <li id="goal-3">Развиваться и быть счастливой</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Секция сотрудничества -->
+    <section class="goals container mb-5 pb-sm-5 pb-0" id="contact">
+      <h2 id="cooperation" class="h2 font-weight-bold my-4">Сотрудничество</h2>
+      <div class="row">
+        <div class="col-12 col-sm-8 pb-1">
+          <p id="cooperation-1" class="pb-1 mb-1">Если интересно, что я могу для вас сделать, пишите:</p>
+          <!-- Блок с кнопками для связи -->
+          <div class="row">
+            <div class="col-12 col-sm-9">
+              <p class="d-flex justify-content-start gap-2 flex-wrap">
+                <a id="tg" href="https://t.me/irapat" class="btn mb-3" style="background-color: #DCFF05; color: #102D69" target="_blank">Написать в Telegram</a>
+                <a id="resume" href="https://docs.google.com/document/d/1XRp3JLVT5LiB_mVGA8VpHI1ChvjqZE-U3Xt6zDrAh1M/edit?usp=sharing" class="btn mb-3" style="background-color: #DCFF05; color: #102D69" target="_blank">Посмотреть резюме</a>
+                <a id="mail" href="mailto:ira.pateshman@mail.ru" class="btn mb-3" style="background-color: #DCFF05; color: #102D69" target="_blank">Написать на почту</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Подвал сайта с темным фоном -->
+    <footer class="footer dark-bg">
+      <nav class="container navbar">
+        <ul class="nav m-auto py-2">
+          <li id="love" class="nav-item mx-3">
+            Cделано с любовью в 2024 году.
+          </li>
+        </ul>
+      </nav>
+    </footer>
+
+    <script>
+      const translations = {
+        ru: {
+          title: "Верхняя строчка | Должность",
+          theme: "Переключить тему",
+          logo_title: "Верхняя строчка",
+          logo_subtitle: "Должность",
+          link_about: "Вкратце обо мне",
+          link_projects: "Мой опыт работы",
+          link_contact: "Сотрудничество",
+          link_contact_footer: "Написать мне",
+          greeting: "Привет! Меня зовут Ира, давай знакомиться!",
+          welcome_text: "Я — студентка Высшей Школы Экономики, ФКН/ФЭН ВШЭ <br> Учусь развиваюсь, творю",
+          button_write: "Написать мне",
+          about_heading: "Обо мне",
+          about_text: "Я — обычная студентка, живущая самой обычной жизнью, но кое-что обо мне не знает никто, это моя тайна...",
+          about_text_2: "Учусь на программе <a href='https://www.hse.ru/ba/eda/?ysclid=m52wnees8u973769851t'>\"Экономика и анализ данных\"</a>. Я состою в студенческой организации ССФЭ, в свободное время мы разукрашиваем жизнь студентов, даря незабываемые эмоции.",
+          about_text_3: "46 490 минут музыки в 2024 году",
+          hse: "НИУ «ВШЭ»",
+          time1: "Сентябрь 2022 – Настоящее время",
+          time2: "Сентябрь 2022 – Настоящее время",
+          student: "Студент",
+          work_experience_1: "Занимаюсь изучением математики, программирования и экономики.",
+          work_experience_2: "Пока изучаю материал и пробую в свои силы в студенческих проектах. Опыта в стажировках ещё пока не было",
+          goals_heading: "Мои цели",
+          goal_1: "Создать что-то масштабное, классное и полезное",
+          goal_2: "Найти очень классную стажировку",
+          goal_3: "Развиваться и быть счастливой",
+          projects_heading: "Мой опыт работы",
+          cooperation: "Сотрудничество",
+          cooperation_1: "Если интересно, что я могу для вас сделать, пишите:",
+          love: "Cделано с любовью в 2024 году.",
+          tg: "Написать в Telegram",
+          resume: "Посмотреть резюме",
+          mail: "Написать на почту",
+        },
+        en: {
+          title: "Top Line | Position",
+          theme: "Switch the theme",
+          logo_title: "The top line",
+          logo_subtitle: "Position",
+          link_about: "Briefly about me",
+          link_projects: "My work experience",
+          link_contact: "Cooperation",
+          link_contact_footer: "Write to me",
+          greeting: "Hi! My name is Ira, nice to meet you!",
+          welcome_text: "I'm a student at the Higher School of Economics, FCS/FES HSE <br> Learning, developing, creating",
+          button_write: "Write to me",
+          about_heading: "About me",
+          about_text: "I'm an ordinary student living an ordinary life, but there is something about me that no one knows, it's my secret...",
+          about_text_2: "I am studying at <a href='https://www.hse.ru/ba/eda/?ysclid=m52wnees8u973769851t'>\ the Economics and Data Analysis program \</a>. I am a member of the SSFE student organization, and in our free time we paint the lives of students, giving them unforgettable emotions.",
+          about_text_3: "46 490 minutes of music in 2024",
+          hse: "Higher School of Economics",
+          time1: "September 2022 – nowadays",
+          time2: "September 2022 – nowadays",
+          student: "Student",
+          work_experience_1: "I study mathematics, programming, and economics.",
+          work_experience_2: "I'm still studying the material and trying my hand at student projects. I haven't had any internship experience yet",
+          goals_heading: "My Goals",
+          goal_1: "Create something large-scale, cool, and useful",
+          goal_2: "Find a great internship",
+          goal_3: "Develop and be happy",
+          projects_heading: "My work experience",
+          cooperation: "Cooperation",
+          cooperation_1: "If you're interested in what I can do for you, write to me:",
+          love: "Made with love in 2024.",
+          tg: "Write in Telegram",
+          resume: "View my resume",
+          mail: "Send an email",
+        },
+      };
+
+      function changeLanguage(language) {
+        localStorage.setItem('language', language);
+        document.getElementById('page-title').innerText = translations[language].title;
+        document.getElementById('logo-title').innerText = translations[language].logo_title;
+        document.getElementById('logo-subtitle').innerText = translations[language].logo_subtitle;
+        document.getElementById('link-about').innerText = translations[language].link_about;
+        document.getElementById('link-projects').innerText = translations[language].link_projects;
+        document.getElementById('link-contact').innerText = translations[language].link_contact;
+        document.getElementById('link-contact-footer').innerText = translations[language].link_contact_footer;
+        document.getElementById('theme').innerText = translations[language].theme;
+        document.getElementById('greeting-text').innerHTML = translations[language].greeting;
+        document.getElementById('welcome-text').innerHTML = translations[language].welcome_text;
+        document.getElementById('btn-contact').innerText = translations[language].button_write;
+        document.getElementById('about-heading').innerText = translations[language].about_heading;
+        document.getElementById('about-text').innerText = translations[language].about_text;
+        document.getElementById('about-text-2').innerHTML = translations[language].about_text_2;
+        document.getElementById('about-text-3').innerHTML = translations[language].about_text_3;
+        document.getElementById('hse').innerHTML = translations[language].hse;
+        document.getElementById('time1').innerHTML = translations[language].time1;
+        document.getElementById('time2').innerHTML = translations[language].time2;
+        document.getElementById('student').innerHTML = translations[language].student;
+        document.getElementById('work-experience-1').innerText = translations[language].work_experience_1;
+        document.getElementById('work-experience-2').innerText = translations[language].work_experience_2;
+        document.getElementById('goals-heading').innerText = translations[language].goals_heading;
+        document.getElementById('goal-1').innerText = translations[language].goal_1;
+        document.getElementById('goal-2').innerText = translations[language].goal_2;
+        document.getElementById('goal-3').innerText = translations[language].goal_3;
+        document.getElementById('projects-heading').innerText = translations[language].projects_heading;
+        document.getElementById('cooperation').innerText = translations[language].cooperation;
+        document.getElementById('cooperation-1').innerText = translations[language].cooperation_1;
+        document.getElementById('love').innerText = translations[language].love;
+        document.getElementById('tg').innerText = translations[language].tg;
+        document.getElementById('resume').innerText = translations[language].resume;
+        document.getElementById('mail').innerText = translations[language].mail;
+
+        const languageButton = document.querySelector('.language-toggle');
+        if (language === 'ru') {
+          languageButton.innerText = 'English';
+        } else {
+          languageButton.innerText = 'Русский';
+        }
+       }
+
+      document.querySelector('.language-toggle').addEventListener('click', () => {
+        const currentLang = localStorage.getItem('language') === 'en' ? 'en' : 'ru';
+        const newLang = currentLang === 'en' ? 'ru' : 'en';
+        changeLanguage(newLang);
+      });
+
+      // Установить сохраненные настройки при загрузке
+      const savedLang = localStorage.getItem('language') || 'ru';
+      changeLanguage(savedLang);
+
+      // ТЁМНАЯ ТЕМА
+        // Функция применения темы
+        function applyTheme(theme) {
+          document.body.className = theme;
+          localStorage.setItem('theme', theme);
+        }
+
+        // Обработчик переключения темы
+        document.querySelector('.theme-toggle').addEventListener('click', () => {
+          const currentTheme = document.body.classList.contains('dark-theme') ? 'dark-theme' : 'light-theme';
+          const newTheme = currentTheme === 'light-theme' ? 'dark-theme' : 'light-theme';
+          applyTheme(newTheme);
+        });
+
+        // Установить сохраненную тему при загрузке
+        const savedTheme = localStorage.getItem('theme') || 'light-theme';
+        applyTheme(savedTheme);
+    </script>
+  </body>
+</html>
